@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\ui\\consoleutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:ui\\consoleutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\bl\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:bl\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\ui\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:ui\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\ui\\productui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:ui\\productui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\dl\\productdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:dl\\productdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\dl\\admindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:dl\\admindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\bl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:bl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\dl\\customerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:dl\\customerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|h:\\semester 2\\oops\\pd5\\problem_2\\bl\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D133B1A-B046-4235-999E-BF77B6ED03FC}|Problem_2.csproj|solutionrelative:bl\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleUtility.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\ConsoleUtility.cs",
+              "RelativeDocumentMoniker": "UI\\ConsoleUtility.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\ConsoleUtility.cs",
+              "RelativeToolTip": "UI\\ConsoleUtility.cs",
+              "ViewState": "AQIAAAgAAACAZmZmZmYuwCMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:54:19.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductUI.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\ProductUI.cs",
+              "RelativeDocumentMoniker": "UI\\ProductUI.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\ProductUI.cs",
+              "RelativeToolTip": "UI\\ProductUI.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAiwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:54:03.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerUI.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\CustomerUI.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerUI.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\CustomerUI.cs",
+              "RelativeToolTip": "UI\\CustomerUI.cs",
+              "ViewState": "AQIAAJIAAAAAiJmZmZnJv3YAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:53:47.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminUI.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\AdminUI.cs",
+              "RelativeDocumentMoniker": "UI\\AdminUI.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\UI\\AdminUI.cs",
+              "RelativeToolTip": "UI\\AdminUI.cs",
+              "ViewState": "AQIAABsAAABgZmZmZmY0wCUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:53:33.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDL.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\ProductDL.cs",
+              "RelativeDocumentMoniker": "DL\\ProductDL.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\ProductDL.cs",
+              "RelativeToolTip": "DL\\ProductDL.cs",
+              "ViewState": "AQIAAAcAAAAAMzMzMzMLwBIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:53:17.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerDL.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\CustomerDL.cs",
+              "RelativeDocumentMoniker": "DL\\CustomerDL.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\CustomerDL.cs",
+              "RelativeToolTip": "DL\\CustomerDL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:52:46.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDL.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\AdminDL.cs",
+              "RelativeDocumentMoniker": "DL\\AdminDL.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\DL\\AdminDL.cs",
+              "RelativeToolTip": "DL\\AdminDL.cs",
+              "ViewState": "AQIAABkAAABAMzMzMzMbwBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:52:27.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Product.cs",
+              "RelativeDocumentMoniker": "BL\\Product.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Product.cs",
+              "RelativeToolTip": "BL\\Product.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:52:06.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Customer.cs",
+              "RelativeDocumentMoniker": "BL\\Customer.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Customer.cs",
+              "RelativeToolTip": "BL\\Customer.cs",
+              "ViewState": "AQIAAAkAAACgmZmZmZkdwAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:51:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Admin.cs",
+              "RelativeDocumentMoniker": "BL\\Admin.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\BL\\Admin.cs",
+              "RelativeToolTip": "BL\\Admin.cs",
+              "ViewState": "AQIAAAMAAABgZmZmZmYkwBEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:51:23.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:48:37.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
