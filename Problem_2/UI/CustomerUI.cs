@@ -11,8 +11,7 @@ namespace Problem_2.UI
 {
     internal class CustomerUI
     {
-        public int currentID = 101;
-        public static string customerMenu()
+        public static int customerMenu()
         {
             ConsoleUtility.header();
             Console.WriteLine("1. Show All Products");
@@ -21,17 +20,20 @@ namespace Problem_2.UI
             Console.WriteLine("4. View Profile");
             Console.WriteLine("5.. Exit");
             Console.Write("Enter your choice: ");
-            return Console.ReadLine();
+            return int.Parse(Console.ReadLine());
         }
         public void buyProduct()
         {
             List<Product> temp = new List<Product>();
             bool isBought = false;
+            
+                
+                Console.WriteLine("*************************");
+                Console.WriteLine("*      BUY PRODUCTS     *");
+                Console.WriteLine("*************************");
             do
             {
                 string prodname;
-                Console.WriteLine("*****  BUY PRODUCTS *****");
-                Console.WriteLine("\n\n");
                 Console.Write("Which Product You Want to Buy :");
                 prodname = Console.ReadLine();
                 Product product = ProductDL.products.Find(p => p.name == prodname);
@@ -65,6 +67,7 @@ namespace Problem_2.UI
                 Console.Clear();
 
             } while (true);
+            ConsoleUtility.clearScreen();
             if (isBought)
             {
                 viewCustomerCart(temp);
@@ -75,13 +78,15 @@ namespace Problem_2.UI
             {
                 Console.WriteLine("No Products Bought !!!");
             }
+            ConsoleUtility.clearScreen();
         }
 
         public void viewCustomerCart(List<Product> temp)
         {
             double total = 0;
-            Console.WriteLine("*****  Your Cart  *****");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("*************************");
+            Console.WriteLine("*       Your Cart       *");
+            Console.WriteLine("*************************");
             foreach (var product in temp)
             {
                 
@@ -94,15 +99,14 @@ namespace Problem_2.UI
                 Console.WriteLine("----------------------------");
                 total += product.price;
             }
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
             Console.WriteLine($"Total Amount : {total}");
-            Console.ReadKey();
-            Console.Clear();
         }
         public void addCustomerInfo(List<Product> temp)
         {
-            Console.WriteLine("*****  Costomer's Info  *****");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("*****************************");
+            Console.WriteLine("*      Costomer's Info      *");
+            Console.WriteLine("*****************************");
             Console.WriteLine("Enter Your Name :");
             string name = Console.ReadLine();
             Console.WriteLine("Enter Your Address :");
@@ -113,13 +117,13 @@ namespace Problem_2.UI
             string email = Console.ReadLine();
             Customer customer = new Customer(name, email, address, contact);
             customer.productsBought.AddRange(temp);
-            currentID++;
         }
 
         public void generateInvoice()
         {
-            Console.WriteLine("*****  INVOICE  *****");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("***********************");
+            Console.WriteLine("*       INVOICE       *");
+            Console.WriteLine("***********************");
             Console.WriteLine("Enter Customer Name :");
             string name = Console.ReadLine();
             Customer customer = CustomerDL.customers.Find(c => c.username == name);

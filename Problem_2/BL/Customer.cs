@@ -13,6 +13,7 @@ namespace Problem_2.BL
         public string address;
         public string contactNo;
         public List<Product> productsBought;
+        public Customer() { }
         public Customer(string username,  string email, string address, string contactNo)
         {
             this.username = username;

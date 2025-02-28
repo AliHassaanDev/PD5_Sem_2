@@ -1,2 +1,4 @@
 ali,123,admin
 ali,1234,customer
+farhan,123,admin
+ali,1234,customer

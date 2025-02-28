@@ -14,7 +14,6 @@ namespace Problem_2
     {
         static void Main(string[] args)
         {
-                // Load data from files
                 AdminDL.readFromFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Admin.txt");
                 CustomerDL.readFromFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Customer.txt");
                 ProductDL.readFromFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Product.txt");
@@ -28,7 +27,7 @@ namespace Problem_2
 
                     switch (option)
                     {
-                        case 1: // Sign Up
+                        case 1: 
                             Admin newAdmin = AdminUI.getUserInfo();
                             AdminDL.addAdmin(newAdmin);
                             AdminDL.addToFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Admin.txt", newAdmin);
@@ -36,30 +35,27 @@ namespace Problem_2
                             ConsoleUtility.clearScreen();
                             break;
 
-                        case 2: // Sign In
+                        case 2: 
                         Admin user = AdminUI.getUserInfo();
-                        Admin existingAdmin = AdminDL.store.Find(a => a.UserName == user.UserName && a.Password == user.Password &&( a.Role =="Admin"||a.Role =="Admin"));
+                        Admin existingAdmin = AdminDL.store.Find(a => a.UserName == user.UserName && a.Password == user.Password && a.Role == user.Role  );
 
-                        if (existingAdmin != null)
+                        if (existingAdmin != null && existingAdmin.Role =="admin")
                         {
                             AdminMenuLoop();
                         }
-                        else
-                        {
-                            Customer existingCustomer = CustomerDL.customers.Find(c => c.username == user.UserName);
-                            if (existingCustomer != null)
+                        else if (existingAdmin.Role == "customer")
                             {
-                                CustomerMenuLoop(existingCustomer);
+                                CustomerMenuLoop();
                             }
                             else
                             {
                                 Console.WriteLine("Invalid credentials!");
                                 ConsoleUtility.clearScreen();
                             }
-                        }
+                        
                         break;
 
-                    case 3: // Exit
+                    case 3: 
                             return;
                     }
                 } while (true);
@@ -75,75 +71,76 @@ namespace Problem_2
 
                 switch (adminOption)
                 {
-                    case 1: // Add Product
+                    case 1: 
                         ProductUI productui = new ProductUI();
                         ProductUI.ADDProducts();
                         ProductDL.addToFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Product.txt");
                         break;
 
-                    case 2: // View All Products
+                    case 2: 
                         ProductUI.showAllProducts();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 3: // Find Highest Price
+                    case 3: 
                         ProductUI.showHighestPricedProduct();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 4: // View Sales Tax
+                    case 4: 
                         ProductUI.viewSalesTax();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 5: // Low Stock Products
+                    case 5: 
                         ProductUI.productsToBeOrdered();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 6: // View Profile
+                    case 6: 
                         Console.WriteLine("Admin Profile:");
-                        Console.WriteLine($"Username: {AdminDL.store[0].UserName}"); // Simplified for demo
+                        Console.WriteLine($"Username: {AdminDL.store[0].UserName}"); 
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 7: // Exit
+                    case 7: 
                         return;
                 }
                 } while (true);
             }
-        // Customer Menu Logic
-        static void CustomerMenuLoop(Customer customer)
+
+        static void CustomerMenuLoop()
         {
+            Customer customer = new Customer();
             int customerOption;
             do
             {
-                customerOption = int.Parse(CustomerUI.customerMenu());
+                customerOption = (CustomerUI.customerMenu());
                 Console.Clear();
 
                 switch (customerOption)
                 {
-                    case 1: // View Products
+                    case 1: 
                         ProductUI.showAllProducts();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 2: // Buy Products
+                    case 2: 
                         new CustomerUI().buyProduct();
                         ProductDL.addToFile("H:\\Semester 2\\OOPS\\PD5\\Problem_2\\Product.txt");
                         break;
 
-                    case 3: // Generate Invoice
+                    case 3: 
                         new CustomerUI().generateInvoice();
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 4: // View Profile
+                    case 4: 
                         Console.WriteLine($"Username: {customer.username}\nEmail: {customer.email}\nAddress: {customer.address}");
                         ConsoleUtility.clearScreen();
                         break;
 
-                    case 5: // Exit
+                    case 5: 
                         return;
                 }
             } while (true);

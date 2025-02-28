@@ -12,14 +12,12 @@ namespace Problem_2.UI
     {
         public static void ADDProducts()
         {
-            string id, name, category;
-            double unitPrice, salesTax;
+            string  name, category;
+            double unitPrice;
             int stockQty, thresholdQty;
-
-            Console.WriteLine("*****  ADD PRODUCT *****");
-            Console.WriteLine("\n\n");
-            Console.WriteLine("Enter the Product ID : ");
-            id = Console.ReadLine();
+            Console.WriteLine("************************");
+            Console.WriteLine("*      ADD PRODUCT     *");
+            Console.WriteLine("************************");
             Console.WriteLine("Enter the Product Name :");
             name = Console.ReadLine();
             Console.WriteLine("Enter Category :");
@@ -30,20 +28,16 @@ namespace Problem_2.UI
             stockQty = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Threshold Quantity :");
             thresholdQty = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Sales Tax :");
-            salesTax = double.Parse(Console.ReadLine());
-
             Product product = new Product( name, category, unitPrice, stockQty, thresholdQty);
-
+            ConsoleUtility.clearScreen();
             ProductDL.addProduct(product);
-
-            Console.ReadKey();
         }
 
         public static void showAllProducts()
         {
-            Console.WriteLine("*****  ALL PRODUCTS *****");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("*************************");
+            Console.WriteLine("*      ALL PRODUCTS     *");
+            Console.WriteLine("*************************");
 
             foreach (var product in ProductDL.products)
             {
@@ -56,8 +50,7 @@ namespace Problem_2.UI
                 Console.WriteLine($"Sales Tax: {product.calculateTax(product)}");
                 Console.WriteLine("----------------------------");
             }
-
-            Console.ReadKey();
+            ConsoleUtility.clearScreen();
         }
 
         public static void showHighestPricedProduct()
@@ -67,7 +60,6 @@ namespace Problem_2.UI
             if (highestPricedProduct != null)
             {
                 Console.WriteLine("*****  HIGHEST PRICED PRODUCT *****");
-                Console.WriteLine("\n\n");
                 
                 Console.WriteLine($"Name: {highestPricedProduct.name}");
                 Console.WriteLine($"Category: {highestPricedProduct.category}");
@@ -82,14 +74,14 @@ namespace Problem_2.UI
                 Console.WriteLine("No products available.");
             }
 
-            Console.ReadKey();
+            ConsoleUtility.clearScreen();
         }
 
         public static void viewSalesTax()
         {
-            Console.WriteLine("*****  SALES  TAX  *****");
-            Console.WriteLine("\n\n");
-
+            Console.WriteLine("************************");
+            Console.WriteLine("*      SALES  TAX      *");
+            Console.WriteLine("************************");
             foreach (var product in ProductDL.products)
             {
                 
@@ -103,9 +95,9 @@ namespace Problem_2.UI
 
         public static void productsToBeOrdered()
         {
-            Console.WriteLine("***** PRODUCTS TO BE ORDERED *****");
-            Console.WriteLine("\n\n");
-
+            Console.WriteLine("**********************************");
+            Console.WriteLine("*     PRODUCTS TO BE ORDERED     *");
+            Console.WriteLine("**********************************");
             foreach (var product in ProductDL.products)
             {
                 if (product.stockQuantity < product.threshold)
@@ -118,7 +110,7 @@ namespace Problem_2.UI
                 }
             }
 
-            Console.ReadKey();
+            ConsoleUtility.clearScreen();
         }
     }
 }
